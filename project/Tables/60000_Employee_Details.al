@@ -5,6 +5,7 @@ table 60000 "Employee Details"
     DrillDownPageId = "Employee Details LP";
     LookupPageId = "Employee Details LP";
     //Permissions = tabledata Departments = rm;
+    //man kalpithha hi mkda wenne
 
     fields
     {   //Personal Profile
