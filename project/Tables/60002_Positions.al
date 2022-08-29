@@ -27,6 +27,8 @@ table 60002 Positions
         }
     }
 
+
+
     keys
     {
         key(PK; "Pos No.")
@@ -34,6 +36,12 @@ table 60002 Positions
             Clustered = true;
         }
     }
+
+    fieldgroups
+    {
+        fieldgroup(DropDown; "Pos No.", "Pos Name") { }
+    }
+
 
     var
         myInt: Integer;

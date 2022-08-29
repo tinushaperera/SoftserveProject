@@ -37,6 +37,11 @@ table 60003 Departments
         }
     }
 
+    fieldgroups
+    {
+        fieldgroup(DropDown; "Dep No.", "Dep Name", "Head of Department") { }
+    }
+
     var
         myInt: Integer;
 

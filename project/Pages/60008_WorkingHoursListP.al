@@ -39,6 +39,7 @@ page 60008 "Working Hours LP"
                     ToolTip = 'Specifies the value of the Date field.';
                 }
 
+
             }
         }
         area(Factboxes)

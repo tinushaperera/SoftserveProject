@@ -91,6 +91,11 @@ page 60001 "Employee Details CP"
                 }
             }
         }
+
+        area(Factboxes)
+        {
+            // part("Employee Details"; )
+        }
     }
 
     actions

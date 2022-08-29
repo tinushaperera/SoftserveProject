@@ -45,7 +45,7 @@ page 60000 "Employee Details LP"
         }
         area(Factboxes)
         {
-
+            
         }
     }
 

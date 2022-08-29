@@ -45,6 +45,11 @@ table 60001 Jobs
         }
     }
 
+    fieldgroups
+    {
+        fieldgroup(DropDown; "Job No.", "Job Name", "Job Status") { }
+    }
+
     var
         myInt: Integer;
 

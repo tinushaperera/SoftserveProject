@@ -58,6 +58,11 @@ table 60004 "Working Hours"
         }
     }
 
+    fieldgroups
+    {
+        fieldgroup(DropDown; "Emp No.", "Emp Name") { }
+    }
+
     var
         myInt: Integer;
 

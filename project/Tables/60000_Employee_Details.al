@@ -104,7 +104,13 @@ table 60000 "Employee Details"
             DataClassification = ToBeClassified;
         }
 
+
     }
+
+
+
+
+
 
     keys
     {
@@ -112,6 +118,11 @@ table 60000 "Employee Details"
         {
             Clustered = true;
         }
+    }
+
+    fieldgroups
+    {
+        fieldgroup(DropDown; "Emp No.", "Emp FName", "Emp LName", Gender, Position, Department) { }
     }
 
     var
