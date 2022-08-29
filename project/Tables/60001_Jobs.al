@@ -1,6 +1,8 @@
 table 60001 Jobs
 {
+    DataCaptionFields = "Job No.", "Job Name";
     DataClassification = ToBeClassified;
+
 
     fields
     {

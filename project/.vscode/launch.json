@@ -15,7 +15,7 @@
             "tenant": "a6a0a36c-05de-4feb-8023-23d01229972f",
             "serverInstance": "Developer",
             "dependencyPublishingOption": "Ignore",
-            "schemaUpdateMode": "ForceSync"
+            "schemaUpdateMode": "Synchronize"
         }
     ]
 }

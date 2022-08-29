@@ -1,5 +1,6 @@
 table 60004 "Working Hours"
 {
+    DataCaptionFields = "Line No.", "Emp Name";
     DataClassification = ToBeClassified;
 
     fields
@@ -14,6 +15,15 @@ table 60004 "Working Hours"
             DataClassification = ToBeClassified;
             //Emp Table Relation
             TableRelation = "Employee Details"."Emp No.";
+
+            trigger OnValidate()
+            var
+                empRec: Record "Employee Details";
+                wrkRec: Record "Working Hours";
+            //empFullName: Text[200];
+            begin
+                wrkRec."Emp Name" := empRec."Emp FName" + empRec."Emp LName";
+            end;
         }
         field(3; "Job No."; Integer)
         {
@@ -33,6 +43,11 @@ table 60004 "Working Hours"
         {
             DataClassification = ToBeClassified;
         }
+        field(8; "Emp Name"; Text[200])
+        {
+            DataClassification = ToBeClassified;
+        }
+
     }
 
     keys

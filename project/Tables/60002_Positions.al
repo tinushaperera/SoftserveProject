@@ -1,5 +1,6 @@
 table 60002 Positions
 {
+    DataCaptionFields = "Pos No.", "Pos Name";
     DataClassification = ToBeClassified;
     LookupPageId = "Position LP";
     DrillDownPageId = "Position LP";

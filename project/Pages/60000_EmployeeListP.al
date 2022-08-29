@@ -29,6 +29,18 @@ page 60000 "Employee Details LP"
                 {
                     ApplicationArea = All;
                 }
+                field(Position; Rec.Position)
+                {
+                    ApplicationArea = All;
+                    // ToolTip = 'Specifies the value of the Position field.';
+                }
+                field(Gender; Rec.Gender)
+                {
+                    ApplicationArea = All;
+                    // ToolTip = 'Specifies the value of the Gender field.';
+                }
+
+
             }
         }
         area(Factboxes)

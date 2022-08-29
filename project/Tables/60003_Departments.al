@@ -1,5 +1,6 @@
 table 60003 Departments
 {
+    DataCaptionFields = "Dep No.", "Dep Name";
     DataClassification = ToBeClassified;
     LookupPageId = "Department LP";
     DrillDownPageId = "Department LP";

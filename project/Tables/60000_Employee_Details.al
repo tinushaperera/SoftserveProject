@@ -1,5 +1,6 @@
 table 60000 "Employee Details"
 {
+    DataCaptionFields = "Emp No.", "Emp FName";
     DataClassification = ToBeClassified;
     DrillDownPageId = "Employee Details LP";
     LookupPageId = "Employee Details LP";
@@ -33,6 +34,7 @@ table 60000 "Employee Details"
         field(5; "PMobile No."; Integer)
         {
             DataClassification = ToBeClassified;
+            //ExtendedDatatype
 
         }
         field(6; "PEmail"; Text[100])
