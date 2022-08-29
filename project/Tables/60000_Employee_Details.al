@@ -78,6 +78,8 @@ table 60000 "Employee Details"
             //     depRec:= Get(depRec) 
             // end;
 
+
+
         }
 
         field(11; "Position"; code[30])
@@ -100,6 +102,7 @@ table 60000 "Employee Details"
         {
             DataClassification = ToBeClassified;
         }
+
     }
 
     keys
